@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()  # Load .env file
 
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+TOKEN = os.getenv("GITHUB_TOKEN")
 REPO_NAME = os.getenv("REPO_NAME")
 
 g = Github(TOKEN)
