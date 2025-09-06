@@ -1,0 +1,4 @@
+Day 1: Install Python
+
+Related to issue #102
+Closes #102

@@ -1,0 +1,101 @@
+Day,Focus,Task,Output
+Day 1,Install Python, Git, PyCharm; set up virtualenv,Install Python, Git, PyCharm; set up virtualenv,Environment ready
+Day 2,Variables, datatypes, operators → calculator script,Variables, datatypes, operators → calculator script,calculator.py
+Day 3,Strings & formatting → text manipulator,Strings & formatting → text manipulator,string_tools.py
+Day 4,Conditionals (if-else) → grading system,Conditionals (if-else) → grading system,grading.py
+Day 5,Loops (for/while) → number guessing game,Loops (for/while) → number guessing game,guess_game.py
+Day 6,Functions → simple menu-driven calculator,Functions → simple menu-driven calculator,menu_calc.py
+Day 7,Lists & tuples → mini contact list,Lists & tuples → mini contact list,contacts.py
+Day 8,Sets & dicts → frequency counter,Sets & dicts → frequency counter,freq_counter.py
+Day 9,List/dict comprehensions → mini transformations,List/dict comprehensions → mini transformations,list_comp.py
+Day 10,File I/O → read/write CSV student marks,File I/O → read/write CSV student marks,marks.csv
+Day 11,JSON basics → store/retrieve contacts,JSON basics → store/retrieve contacts,contacts.json
+Day 12,Error handling → robust calculator,Error handling → robust calculator,error_calc.py
+Day 13,Debugging in PyCharm (breakpoints),Debugging in PyCharm (breakpoints),debug_notes.md
+Day 14,Import modules → utility module for math,Import modules → utility module for math,math_utils.py
+Day 15,Classes & objects → book library,Classes & objects → book library,library.py
+Day 16,Inheritance & polymorphism → shapes area calculator,Inheritance & polymorphism → shapes area calculator,shapes.py
+Day 17,Special methods (__str__, __len__) → custom class,Special methods (__str__, __len__) → custom class,custom_class.py
+Day 18,Iterators & generators → Fibonacci generator,Iterators & generators → Fibonacci generator,fib_gen.py
+Day 19,Decorators → log execution time,Decorators → log execution time,decorator.py
+Day 20,Context managers (with) → file handler,Context managers (with) → file handler,file_handler.py
+Day 21,Virtualenv, requirements.txt, pip,Virtualenv, requirements.txt, pip,requirements.txt
+Day 22,Testing with pytest → test math utilities,Testing with pytest → test math utilities,test_math.py
+Day 23,Type hints & mypy → refactor utilities,Type hints & mypy → refactor utilities,typed_utils.py
+Day 24,Linting & formatting (black, flake8),Linting & formatting (black, flake8),linting.md
+Day 25,Logging module → log user activity,Logging module → log user activity,app.log
+Day 26,Date/time handling → countdown timer,Date/time handling → countdown timer,countdown.py
+Day 27,Collections (Counter, defaultdict),Collections (Counter, defaultdict),collections_demo.py
+Day 28,Concurrency basics → multithreaded downloader,Concurrency basics → multithreaded downloader,downloader.py
+Day 29,Package your CLI app with setuptools,Package your CLI app with setuptools,setup.py
+Day 30,Mini Project: CLI To-do app with file storage + unit tests,Mini Project: CLI To-do app with file storage + unit tests,todo_app/
+Day 31,NumPy arrays → matrix operations,NumPy arrays → matrix operations,numpy_matrix.py
+Day 32,Array slicing, indexing, broadcasting,Array slicing, indexing, broadcasting,numpy_slicing.py
+Day 33,Aggregations (mean, sum, std),Aggregations (mean, sum, std),numpy_agg.py
+Day 34,Linear algebra → implement dot product,Linear algebra → implement dot product,numpy_dot.py
+Day 35,Random module + NumPy RNG → simulate dice rolls,Random module + NumPy RNG → simulate dice rolls,numpy_rng.py
+Day 36,pandas Series → explore stock prices,pandas Series → explore stock prices,pandas_series.py
+Day 37,pandas DataFrame → load CSV dataset,pandas DataFrame → load CSV dataset,pandas_dataframe.py
+Day 38,Missing values, duplicates, cleaning,Missing values, duplicates, cleaning,pandas_cleaning.py
+Day 39,Groupby, pivot tables,Groupby, pivot tables,pandas_groupby.py
+Day 40,Mini Project: Analyze COVID dataset,Mini Project: Analyze COVID dataset,covid_analysis.ipynb
+Day 41,Matplotlib basics (line, bar),Matplotlib basics (line, bar),matplotlib_basic.py
+Day 42,Scatterplots, histograms, subplots,Scatterplots, histograms, subplots,matplotlib_plots.py
+Day 43,Seaborn basics (distplot, pairplot),Seaborn basics (distplot, pairplot),seaborn_basic.py
+Day 44,Heatmaps, correlation matrix,Heatmaps, correlation matrix,heatmap.py
+Day 45,Mini Project: Visualize stock trends,Mini Project: Visualize stock trends,stock_viz.ipynb
+Day 46,Train/test split, linear regression (scikit-learn),Train/test split, linear regression (scikit-learn),linear_regression.py
+Day 47,Evaluate regression model (MSE, R²),Evaluate regression model (MSE, R²),regression_eval.py
+Day 48,Classification (logistic regression),Classification (logistic regression),logistic_regression.py
+Day 49,Confusion matrix, precision/recall,Confusion matrix, precision/recall,classification_eval.py
+Day 50,Mini Project: House price prediction,Mini Project: House price prediction,house_prices.ipynb
+Day 51,HTTP requests (requests library),HTTP requests (requests library),requests_demo.py
+Day 52,Parsing HTML with BeautifulSoup,Parsing HTML with BeautifulSoup,bs4_parser.py
+Day 53,Extract tables/lists from a page,Extract tables/lists from a page,bs4_tables.py
+Day 54,Mini Project: Scrape IMDB top 250 → CSV,Mini Project: Scrape IMDB top 250 → CSV,imdb_scraper.py
+Day 55,Selenium basics → open page, click button,Selenium basics → open page, click button,selenium_basic.py
+Day 56,Headless browser scraping,Headless browser scraping,selenium_headless.py
+Day 57,Form filling, auto-login,Form filling, auto-login,selenium_login.py
+Day 58,Mini Project: Scrape job listings (dynamic),Mini Project: Scrape job listings (dynamic),job_scraper.py
+Day 59,Scrapy basics → spiders, pipelines,Scrapy basics → spiders, pipelines,scrapy_spider/
+Day 60,Crawl multi-page sites,Crawl multi-page sites,scrapy_crawler/
+Day 61,Save data to CSV/DB,Save data to CSV/DB,scrapy_pipeline.py
+Day 62,Mini Project: Ecommerce scraper (products),Mini Project: Ecommerce scraper (products),ecommerce_scraper/
+Day 63,Cleaning scraped data with pandas,Cleaning scraped data with pandas,scraped_cleaning.py
+Day 64,Automate scraping + scheduling (cron/APScheduler),Automate scraping + scheduling (cron/APScheduler),scheduler.py
+Day 65,Mini Project: News headlines → sentiment analysis,Mini Project: News headlines → sentiment analysis,news_sentiment.ipynb
+Day 66,ML basics → supervised vs unsupervised,ML basics → supervised vs unsupervised,ml_notes.md
+Day 67,Logistic regression classifier,Logistic regression classifier,log_reg.py
+Day 68,Decision trees & random forests,Decision trees & random forests,random_forest.py
+Day 69,K-means clustering,K-means clustering,kmeans.py
+Day 70,Mini Project: Spam email classifier,Mini Project: Spam email classifier,spam_classifier.ipynb
+Day 71,Neural network basics → forward pass math,Neural network basics → forward pass math,nn_math.py
+Day 72,PyTorch tensors & autograd,PyTorch tensors & autograd,pytorch_tensors.py
+Day 73,Train simple NN on MNIST,Train simple NN on MNIST,mnist_train.py
+Day 74,Evaluate NN → accuracy & confusion matrix,Evaluate NN → accuracy & confusion matrix,mnist_eval.py
+Day 75,Mini Project: Digit recognizer (MNIST),Mini Project: Digit recognizer (MNIST),digit_recognizer.ipynb
+Day 76,HuggingFace intro → load pretrained models,HuggingFace intro → load pretrained models,hf_basic.py
+Day 77,Sentiment analysis with BERT,Sentiment analysis with BERT,bert_sentiment.ipynb
+Day 78,Text embeddings & similarity search,Text embeddings & similarity search,embeddings.py
+Day 79,OpenAI API basics (chat, embeddings),OpenAI API basics (chat, embeddings),openai_demo.py
+Day 80,Mini Project: Sentiment analyzer API,Mini Project: Sentiment analyzer API,sentiment_api/
+Day 81,LangChain basics (chains, prompts),LangChain basics (chains, prompts),langchain_basic.py
+Day 82,Document loaders & embeddings,Document loaders & embeddings,doc_loader.py
+Day 83,Vector databases (FAISS/Chroma),Vector databases (FAISS/Chroma),vector_db.py
+Day 84,RAG (Retrieval-Augmented Generation),RAG (Retrieval-Augmented Generation),rag_demo.py
+Day 85,Mini Project: Website Q&A chatbot,Mini Project: Website Q&A chatbot,chatbot_app/
+Day 86,Streamlit/Gradio basics → create simple ML app,Streamlit/Gradio basics → create simple ML app,ml_app.py
+Day 87,Dockerize scraper + ML app,Dockerize scraper + ML app,Dockerfile
+Day 88,Connect scraper → DB → ML pipeline,Connect scraper → DB → ML pipeline,pipeline.py
+Day 89,Add API endpoints (FastAPI),Add API endpoints (FastAPI),api_app/
+Day 90,Add Streamlit/Gradio UI,Add Streamlit/Gradio UI,ui_app/
+Day 91,Setup logging & monitoring,Setup logging & monitoring,logging_setup.py
+Day 92,GitHub Actions CI/CD pipeline,GitHub Actions CI/CD pipeline,.github/workflows/ci.yml
+Day 93,Secure env variables / API keys,Secure env variables / API keys,.env.example
+Day 94,Deploy ML app on cloud (Heroku/Render),Deploy ML app on cloud (Heroku/Render),deploy_notes.md
+Day 95,Mini Project: End-to-end AI pipeline,Mini Project: End-to-end AI pipeline,ai_pipeline/
+Day 96,Portfolio setup → GitHub + Streamlit apps,Portfolio setup → GitHub + Streamlit apps,portfolio.md
+Day 97,Document learnings → README / Jupyter notebooks,Document learnings → README / Jupyter notebooks,docs/
+Day 98,Review & refactor all code,Review & refactor all code,refactor_notes.md
+Day 99,Prepare presentation/demo,Prepare presentation/demo,presentation.pptx
+Day 100,Capstone: Deploy & showcase full AI+Scraper+ML project,Capstone: Deploy & showcase full AI+Scraper+ML project,capstone_project/
