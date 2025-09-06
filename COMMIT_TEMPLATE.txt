@@ -1,4 +1,4 @@
-Day 1: Install Python
+Day 1:  Git
 
-Related to issue #102
-Closes #102
+Related to issue #1
+Closes #1

@@ -57,7 +57,10 @@ def main():
     print(f"✅ Found issue: {issue.title} (#{issue.number})")
 
     # Step 4: Create branch name
-    safe_title = re.sub(r"[^a-zA-Z0-9]+", "-", issue.title.lower()).strip("-")
+    # Remove the "Day {day_num}:" prefix from issue title before sanitizing
+    title_without_day = issue.title[len(issue_title_pattern):].strip()
+
+    safe_title = re.sub(r"[^a-zA-Z0-9]+", "-", title_without_day.lower()).strip("-")
     branch_name = f"day-{day_num}-{safe_title[:30]}"  # limit length
 
     # Step 5: Git checkout new branch
