@@ -13,8 +13,9 @@ REPO_NAME = os.getenv("REPO_NAME")
 
 # =============== CONFIG ===============
 # Default start date of your 100-day challenge
-CHALLENGE_START = datetime.date(2025, 9, 7)  # <-- change this to your real start date
+CHALLENGE_START = datetime.date(2025, 9, 7) 
 # ======================================
+
 
 def get_today_day(start_date):
     """Calculate which Day number today is based on start_date"""
@@ -22,10 +23,20 @@ def get_today_day(start_date):
     delta = (today - start_date).days + 1
     return max(1, delta)  # at least Day 1
 
+
 def main():
     # Parse arguments
-    parser = argparse.ArgumentParser(description="Daily Issue Helper for 100 Days Challenge")
-    parser.add_argument("--manual", type=int, help="Manually pick a specific Day number (1–100)")
+    parser = argparse.ArgumentParser(
+        description=(
+            "Daily Issue Helper for "
+            "100 Days Challenge"
+        )
+    )
+    parser.add_argument(
+        "--manual",
+        type=int,
+        help="Manually pick a specific Day number (1–100)"
+    )
     args = parser.parse_args()
 
     # Step 1: Connect to GitHub
@@ -60,7 +71,13 @@ def main():
     # Remove the "Day {day_num}:" prefix from issue title before sanitizing
     title_without_day = issue.title[len(issue_title_pattern):].strip()
 
-    safe_title = re.sub(r"[^a-zA-Z0-9]+", "-", title_without_day.lower()).strip("-")
+    safe_title = (
+        re.sub(
+            r"[^a-zA-Z0-9]+",
+            "-",
+            title_without_day.lower()
+        ).strip("-")
+    )
     branch_name = f"day-{day_num}-{safe_title[:30]}"  # limit length
 
     # Step 5: Git checkout new branch
@@ -80,6 +97,7 @@ Closes #{issue.number}
         f.write(commit_message)
 
     print("📝 Commit template saved to COMMIT_TEMPLATE.txt")
+
 
 if __name__ == "__main__":
     main()
