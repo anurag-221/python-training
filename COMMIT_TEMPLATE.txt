@@ -1,13 +1,4 @@
-Day 3: Strings & formatting → text manipulator
+Day 4: Conditionals (if-else) → grading system
 
-Related to issue #3
-Closes #3
-day-2-variables
-Day 2: Variables
-
-Related to issue #103
-Closes #103
-Day 1:  Git
-
-Related to issue #1
-Closes #1
+Related to issue #4
+Closes #4
