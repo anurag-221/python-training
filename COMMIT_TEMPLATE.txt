@@ -1,4 +1,4 @@
-Day 2: Variables
+Day 3: Strings & formatting → text manipulator
 
-Related to issue #103
-Closes #103
+Related to issue #3
+Closes #3
