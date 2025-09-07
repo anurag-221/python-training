@@ -1,3 +1,8 @@
+day-2-variables
+Day 2: Variables
+
+Related to issue #103
+Closes #103
 Day 1:  Git
 
 Related to issue #1
